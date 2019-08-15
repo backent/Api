@@ -20,3 +20,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('/test', function(Request $request) {
 	return 'hai';
 });
+Route::post('/notification/handling', function (Request $request) {
+	return 'ok';
+});
